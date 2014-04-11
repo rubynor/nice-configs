@@ -1,0 +1,6 @@
+
+https://github.com/bbatsov/rubocop/blob/master/config/enabled.yml
+ 
+ LineLength:
+   Description: 'Limit lines to 79 characters.'
+     Enabled: false
