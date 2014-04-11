@@ -1,4 +1,7 @@
 nice-configs
 ============
 
-some useful terminal settings files and project settings files. You welcome!
+put most of these in HOME dir
+
+Except
+.hound.yml - Put this in REPO HOME
