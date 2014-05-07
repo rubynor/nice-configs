@@ -7,3 +7,8 @@ LineLength:
 DefWithParentheses:
   Description: 'Use def with parentheses when there are arguments.'
   Enabled: false
+SingleSpaceBeforeFirstArg:
+  Description: >-
+                 Checks that exactly one space is used between a method name
+                 and the first argument for method calls without parentheses.
+  Enabled: false
