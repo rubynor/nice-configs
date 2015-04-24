@@ -26,6 +26,10 @@
   m=merge
   ch=checkout
   p=pull
+  # alias bf: List branches sorted by last commit and formated with [date], [author of last commit] and [branch name]
+  bf=for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(authorname) %(refname:short)'
+  # alias cleanup: Deletes (safely) all branches that are already merged into the branch u are in (except develop and master)
+  cleanup="!git branch --merged | grep -v 'master' | grep -v 'develop' | grep -v '*' | xargs -n 1 git branch -d "
 [core]
   excludesfile = ~/.gitignore_global
 [push]
