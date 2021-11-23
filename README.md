@@ -3,6 +3,14 @@ nice-configs
 
 put most of these in HOME dir
 
+    cd
+    cp .gitconfig .gitconfig-old
+    wget https://github.com/rubynor/nice-configs/blob/master/.gitconfig
+    wget https://github.com/rubynor/nice-configs/blob/master/.gitignore-global
+    
+    #Change your NAME and other
+    nano .gitconfig 
+
 # Ubuntu
 
 Disable/change keybindings is simple, under device -> Keyboard. 
