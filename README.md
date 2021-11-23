@@ -6,7 +6,7 @@ put most of these in HOME dir
     cd
     mv .gitconfig .gitconfig-old
     wget https://github.com/rubynor/nice-configs/blob/master/.gitconfig
-    wget https://github.com/rubynor/nice-configs/blob/master/.gitignore-global
+    wget https://github.com/rubynor/nice-configs/blob/master/.gitignore_global
     
     #Change your NAME and other
     nano .gitconfig 
